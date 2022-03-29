@@ -1,7 +1,7 @@
 ---
 title: "Publications"
 layout: archive
-permalink: /publications/
+permalink: /dahye/publications/
 ---
 
 # Papers

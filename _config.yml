@@ -287,3 +287,8 @@ defaults:
       comments: true
       share: true
       related: true
+
+collections:
+  blogs:
+  output: true
+  permalink: /:collection/:path/

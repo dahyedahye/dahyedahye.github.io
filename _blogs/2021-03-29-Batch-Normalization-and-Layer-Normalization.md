@@ -3,6 +3,9 @@ title: "Batch Normalization vs. Layer Normalization"
 header:
   image: assets/images/unsplash-image-9.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+collection: blogs
+permalink: /blogs/
+layout: collection
 tags:
   - optimization
   - training

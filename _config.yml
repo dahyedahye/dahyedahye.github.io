@@ -16,7 +16,7 @@ timezone: Asia/Seoul
 
 title: Dahye's Pieces # the main title
 
-tagline: Piece, Batch and Life # it will display as the subtitle
+tagline: Piece, Batch, and Life # it will display as the subtitle
 
 description: >- # used by seo meta and the atom feed
   Exploring what information is and how it flows. 
@@ -34,7 +34,7 @@ twitter:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: your_full_name
+  name: Dahye Kim
   email: kkamidahye@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link

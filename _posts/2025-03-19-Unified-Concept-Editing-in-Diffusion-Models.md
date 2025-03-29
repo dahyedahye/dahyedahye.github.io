@@ -111,7 +111,7 @@ UCE’s unified one-step update method supports simultaneous editing across mult
   + \sum_{c_j \in P} \left\| W c_j - W^{\text{old}} c_j \right\|_2^2
   $$ 
 
-  - The **goal** of the objective function is to **find a matrix  $$ W $$ ** that **moves the edited concepts  $$ c_i $$  toward** their **new target  $$ v_i^* $$ **, while **leaving** the **preserved concepts  $$ c_j $$ ** as **close** as possible to their **old outputs**  $$ W^{\text{old}} c_j $$ .
+  - The **goal** of the objective function is to **find a matrix  $$ W $$** that **moves the edited concepts  $$ c_i $$  toward** their **new target  $$ v_i^* $$**, while **leaving** the **preserved concepts  $$ c_j $$** as **close** as possible to their **old outputs**  $$ W^{\text{old}} c_j $$ .
   -  $$ W $$ : The **new linear projection matrix being solved for**.  
   -  $$ W^{\text{old}} $$ : The **original** (pretrained) weight matrix, **from which we are making modifications**.  
   -  $$ c_i \in E $$ : The **concept embeddings** that must be **edited**.  
@@ -139,7 +139,7 @@ UCE’s unified one-step update method supports simultaneous editing across mult
       - This **updates** the weights such that the output **no longer reflects concept  $$ c_i $$ .**
 
 - **Debiasing**
-    - Goal: To **debias** a concept  $$ c_i $$  (e.g., “doctor”) **across attributes  $$ a_1, a_2, …, a_p $$ ** (e.g., “white”, “asian”, “black”, ..), we want the concept with **evenly distributed attributes**.
+    - Goal: To **debias** a concept  $$ c_i $$  (e.g., “doctor”) **across attributes  $$ a_1, a_2, …, a_p $$** (e.g., “white”, “asian”, “black”, ..), we want the concept with **evenly distributed attributes**.
     - Solution: Adjusting the **magnitude** of  $$ v_i $$  **along the directions** of  $$ v_{a_1}, v_{a_2}, …, v_{a_p} $$ , where  $$ v_{a_i} = W^{\text{old}}a_i $$ :
 
       $$ 

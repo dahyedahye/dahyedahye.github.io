@@ -1,8 +1,8 @@
 ---
-title: Unified Concept Editing in Diffusion Models
+title: "[Brief Review] Unified Concept Editing in Diffusion Models"
 date: 2025-03-19 19:00:00 +0900
-categories: [Generative Models, Concept Editing, Text-to-Image]
-tags: [safety, debiasing, erasing, moderation]     # TAG names should always be lowercase
+categories: [Brief Review]
+tags: [generative models, concept editing, text-to-image, safety, debiasing, erasing, moderation]     # TAG names should always be lowercase
 math: true
 ---
 

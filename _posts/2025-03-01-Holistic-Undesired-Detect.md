@@ -5,6 +5,8 @@ categories: [Brief Review]
 tags: [detection, undersired content, RAG, safety, moderation]     # TAG names should always be lowercase
 math: true
 ---
+> **Warning: The reviewed paper may contain content related to racism, sexuality, or other potentially harmful language.**
+{: .prompt-danger }
 
 # Takeaway Summary
 ✅ The proposed taxonomy of undesired content consists of five top-level categories (Sexual, Hateful, Violence, Self-harm, and Harassment) along with a spectrum of subcategories. This taxonomy also covers acceptable (non-undesired) cases, such as contextually appropriate references made for commentary.
@@ -24,9 +26,6 @@ math: true
 - **Mistakes** in the data **are inevitable** and must be proactively **managed**.
 
 # Brief Review
-
-> **Warning: The reviewed paper may contain content related to racism, sexuality, or other potentially harmful language.**
-{: .prompt-danger }
 
 ## Overview
 

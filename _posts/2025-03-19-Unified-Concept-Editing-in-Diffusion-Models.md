@@ -197,3 +197,18 @@ UCE’s unified one-step update method supports simultaneous editing across mult
 3. **The critical mass of artist styles:**
     - In artistic style erasure, **excessive erasure** damages the **important visual priors** learned during pretraining.
 
+## Source
+
+- BibTeX:
+    
+    ```bibtex
+    @inproceedings{gandikota2024unified,
+      title={Unified concept editing in diffusion models},
+      author={Gandikota, Rohit and Orgad, Hadas and Belinkov, Yonatan and Materzy{\'n}ska, Joanna and Bau, David},
+      booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},
+      pages={5111--5120},
+      year={2024}
+    }
+    ```
+    
+- URL: [https://openaccess.thecvf.com/content/WACV2024/papers/Gandikota_Unified_Concept_Editing_in_Diffusion_Models_WACV_2024_paper.pdf](https://openaccess.thecvf.com/content/WACV2024/papers/Gandikota_Unified_Concept_Editing_in_Diffusion_Models_WACV_2024_paper.pdf)

@@ -149,7 +149,7 @@ The proposed taxonomy consists of five top-level categories with a spectrum of s
 
 - BibTeX:
     
-    ```
+    ```bibtex
     @inproceedings{markov2023holistic,
       title={A holistic approach to undesired content detection in the real world},
       author={Markov, Todor and Zhang, Chong and Agarwal, Sandhini and Nekoul, Florentine Eloundou and Lee, Theodore and Adler, Steven and Jiang, Angela and Weng, Lilian},

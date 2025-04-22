@@ -1,5 +1,5 @@
 ---
-title: "[Brief Review] A holistic approach to undesired content detection in the real world"
+title: "[Brief Review] A Holistic Approach to Undesired Content Detection in the Real World"
 date: 2025-03-01 19:00:00 +0900
 categories: [Brief Review]
 tags: [detection, undersired content, RAG, safety, moderation]     # TAG names should always be lowercase

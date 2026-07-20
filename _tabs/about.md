@@ -9,7 +9,7 @@ order: 4
 
 I am a researcher at the [Korea AI Safety Institute (AISI)](https://www.aisi.re.kr) within ETRI, working on explainable and robust AI-generated content and deepfake detection.
 
-If you're interested in collaborating, feel free to reach out! 🤩
+If you're interested in collaborating, feel free to reach out! 💌
 
 ## Research Interests
 * AI Safety

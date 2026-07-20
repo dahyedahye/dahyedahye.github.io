@@ -8,10 +8,14 @@ order: 4
 {: .prompt-tip } -->
 
 ## Research Interests
-* Explainable AI
-* Fairness and Debiasing
-* Representation Learning
-* Investigating Internal Structures of ML Models
+* AI Safety
+* AI-Generated Contents Detection & Attribution
+* Mechanistic Interpretability
+* Trustworthy AI
+* Robustness and Generalization
 
 ## Publications
+* **Dissect and Prune: Enhancing Robustness in AI-Generated Image Detection**  
+  Dahye Kim, [Jaehyun Choi](https://pre6ent.github.io/), [Hyun Seok Seong](https://hynnsk.github.io/), Seongho Kim, Donghun Lee, Sungwon Yi, Jang-Ho Choi ([ICML](https://icml.cc/)), 2026  
+  [![Poster](https://img.shields.io/badge/Poster-ICML%202026-blue)](https://icml.cc/media/PosterPDFs/ICML%202026/64805.png?t=1783235112.5203261) [![arXiv](https://img.shields.io/badge/arXiv-2606.10309-b31b1b)](https://arxiv.org/abs/2606.10309) [![Code](https://img.shields.io/badge/Code-GitHub-181717?logo=github)](https://github.com/dahyedahye/dear)
 * **Unsupervised Segmentation incorporating Shape Prior via Generative Adversarial Networks** Dahye Kim, Byung-Woo Hong ([ICCV](https://iccv2021.thecvf.com/home)), 2021 [\[paper\]](https://openaccess.thecvf.com/content/ICCV2021/papers/Kim_Unsupervised_Segmentation_Incorporating_Shape_Prior_via_Generative_Adversarial_Networks_ICCV_2021_paper.pdf) [\[project page\]](https://dahyedahye.github.io/shape-gan-seg/)

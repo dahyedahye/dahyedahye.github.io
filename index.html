@@ -1,4 +1,21 @@
 ---
-layout: home
-# Index page
+# Redirect the site root to the About page.
+permalink: /
+sitemap: false
 ---
+<!doctype html>
+<html lang="{{ site.lang | default: 'en' }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="refresh" content="0; url={{ '/about/' | relative_url }}">
+    <link rel="canonical" href="{{ '/about/' | absolute_url }}">
+    <meta name="robots" content="noindex">
+    <title>Redirecting&hellip;</title>
+    <script>
+      window.location.replace("{{ '/about/' | relative_url }}" + window.location.search + window.location.hash);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to <a href="{{ '/about/' | relative_url }}">About</a>&hellip;</p>
+  </body>
+</html>

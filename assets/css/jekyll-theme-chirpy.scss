@@ -8,3 +8,57 @@
 ';
 
 /* append your custom style below */
+@use 'sass:color';
+
+/* Publication badges (about page) */
+$pub-badge-colors: (
+  poster: #a2d2ff,
+  arxiv: #ffb7b2,
+  code: #c7ceea,
+  paper: #ffdac1,
+  project: #b5ead7
+);
+
+.content a.pub-badge {
+  display: inline-flex;
+  margin: 0.4rem 0.1rem 0 0;
+  border-bottom: none !important;
+  border-radius: 999px;
+  overflow: hidden;
+  vertical-align: middle;
+  font-family: Poppins, sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0.01em;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
+  > span {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35em;
+    padding: 0.35rem 0.7rem;
+    color: #3a3a3a;
+  }
+
+  > span:first-child {
+    font-weight: 600;
+  }
+
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.12);
+  }
+
+  @each $name, $color in $pub-badge-colors {
+    &.pub-badge-#{$name} {
+      > span:first-child {
+        background: color.adjust($color, $lightness: -8%);
+      }
+
+      > span:last-child {
+        background: $color;
+      }
+    }
+  }
+}
